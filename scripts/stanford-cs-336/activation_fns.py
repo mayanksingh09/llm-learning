@@ -66,7 +66,7 @@ if __name__ == "__main__":
     # glu and swiglu will have a different shape than the input if d_out is different
         # they can project the input to a different dimension (if needed)
 
-    batch, d_in, d_out = 4, 128, 64 # batch size, input feature dimension, output feature dimension
+    batch, d_in, d_out = 4, 128, 128 # batch size, input feature dimension, output feature dimension
     
     x = np.random.randn(batch, d_in)
 
